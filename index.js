@@ -19,6 +19,4 @@ wss.on('connection', function connection(ws) {
   });
 });
 
-app.get('/', (req, res) => res.send('Hello World!'));
-
 server.listen(3000, () => console.log(`Listening on port :3000`));
